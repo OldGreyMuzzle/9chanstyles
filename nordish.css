@@ -1,0 +1,64 @@
+/* nordish */
+/* github.com/greymuzzle/9chanstyles */
+
+body, html {
+   background: #2E3340;
+}
+
+h1.page-title {
+    color: #8fbcbb;
+}
+h2.page-desc {
+    color: #8fbcbb;
+}
+
+.threads {
+    background: #3B4252;
+}
+
+.post-container {
+    background: #4C566A;
+    border: solid 4px;
+    color: #8fbcbb;
+}
+
+.post-container.nsfw {
+    background: #4C566A;
+    border: dashed 2px;
+    color: #8fbcbb;
+}
+
+.post-container.nsfw a, .post-container.nsfw a:hover, .post-container.nsfw a:link, .post-container.nsfw a:visited {
+    color: #5e81ac;
+}
+
+.post-container.nsfw a:hover {
+    color: pink;
+}
+
+a, a:link, a:visited, a:hover {
+    color: #5e81ac;
+}
+
+a.button, button {
+background: #3B4252;
+color: #5e81ac;
+}
+
+/* At least make the hover color for buttons fucking uniform! */
+
+a.button:hover, button:hover{
+    color: pink;
+    border: dashed 1px;
+}
+
+.author {
+    color: pink;
+    text-decoration: underline;
+}
+
+/* Style the fucking capcode */
+
+.capcode, .capcode:before, .postid {
+    color: pink;
+}
